@@ -32,6 +32,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>verifyVisible</td>
+	<td>//tr[@id='picture1']</td>
+	<td></td>
+</tr>
+<tr>
 	<td>open</td>
 	<td>/upload/index_johan.php</td>
 	<td></td>
