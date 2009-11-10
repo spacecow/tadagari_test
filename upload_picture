@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>upload_picture</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">upload_picture</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/upload/index_johan.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please select a category.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please select a category.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Please select a category.Please select a category.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotEditable</td>
+	<td>fileField</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>document.forms[0].elements[0]</td>
+	<td>label=外見</td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Please select a category.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyEditable</td>
+	<td>fileField</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>document.forms[0].elements[0]</td>
+	<td>label=---</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please select a category.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotEditable</td>
+	<td>fileField</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>document.forms[0].elements[0]</td>
+	<td>label=廊下</td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Please select a category.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyEditable</td>
+	<td>fileField</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>fileField</td>
+	<td>C:\Johan\createsmil.asp</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>This is not a photo.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Please select a category.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>This is not a photo.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>This is not a photo.This is not a photo.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>fileField</td>
+	<td>C:\Johan\Pictures\sadako.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>This is not a photo.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>category</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>fileField</td>
+	<td>exact:</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//td[@id='uploaded_picture1']/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//td[@id='uploaded_picture1']</td>
+	<td>sadako.jpg</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[@id='uploaded_category1']</td>
+	<td>廊下</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>category</td>
+	<td>label=外見</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>fileField</td>
+	<td>C:\Johan\Pictures\sadako_face.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//td[@id='uploaded_picture2']/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//td[@id='uploaded_picture2']</td>
+	<td>sadako_face.jpg</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[@id='uploaded_category2']</td>
+	<td>外見</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/upload/index_johan.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//td[@id='uploaded_picture1']/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//td[@id='uploaded_picture1']</td>
+	<td>sadako.jpg</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[@id='uploaded_category1']</td>
+	<td>廊下</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//td[@id='uploaded_picture2']/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//td[@id='uploaded_picture2']</td>
+	<td>sadako_face.jpg</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[@id='uploaded_category2']</td>
+	<td>外見</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
