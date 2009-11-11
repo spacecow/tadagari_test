@@ -24,7 +24,7 @@
 <tr>
 	<td>type</td>
 	<td>fileField</td>
-	<td>D:\Pictures\johan.jpg</td>
+	<td>C:\Pictures\johan.jpg</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -39,7 +39,7 @@
 <tr>
 	<td>type</td>
 	<td>fileField</td>
-	<td>D:\Pictures\johan2.jpg</td>
+	<td>C:\Pictures\johan2.jpg</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -54,7 +54,7 @@
 <tr>
 	<td>type</td>
 	<td>fileField</td>
-	<td>D:\Pictures\sadako.jpg</td>
+	<td>C:\Pictures\sadako.jpg</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -177,9 +177,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>verifyElementNotPresent</td>
-	<td>//td[@id='uploaded_picture1']/img</td>
-	<td></td>
+	<td>waitForNotText</td>
+	<td>//td[@id='uploaded_picture1']</td>
+	<td>johan.jpg</td>
 </tr>
 <tr>
 	<td>open</td>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>drag and drop travel</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">drag and drop travel</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/johan2.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=地下鉄</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line2</td>
+	<td>label=東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>中野</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>station2</td>
+	<td>label=葛西</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes2</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit' and @onclick=&quot;sendFillOutRequest( '鉄道', get_line(2), get_station(2), get_minutes(2), get_distance(2), 2, 0 )&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=大手私鉄</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line3</td>
+	<td>label=都営三田線</td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>白山</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>station3</td>
+	<td>label=白山</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance3</td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit' and @onclick=&quot;sendFillOutRequest( '鉄道', get_line(3), get_station(3), get_minutes(3), get_distance(3), 3, 0 )&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=バス</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>line5</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>station5</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes5</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit' and @onclick=&quot;sendFillOutRequest( 'バス', get_line(5), get_station(5), get_minutes(5), get_distance(5), 5, 0 )&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=その他の鉄道</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line4</td>
+	<td>label=西武山口線</td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>西武遊園地</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>station4</td>
+	<td>label=遊園地西</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance4</td>
+	<td>666</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit' and @onclick=&quot;sendFillOutRequest( '鉄道', get_line(4), get_station(4), get_minutes(4), get_distance(4), 4, 0 )&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextNotPresent</td>
+	<td>東京メトロ東西線</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextNotPresent</td>
+	<td>都営三田線</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextNotPresent</td>
+	<td>yeah</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

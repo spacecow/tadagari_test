@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://www.tadagari.com/" />
-<title>minutes</title>
+<title>test travel minutes</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">minutes</td></tr>
+<tr><td rowspan="1" colspan="3">test travel minutes</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -47,24 +47,29 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
 	<td>鉄道</td>
-	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
 	<td>JR山手線</td>
-	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
 	<td>目黒</td>
-	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
 	<td>5分</td>
-	<td></td>
 </tr>
 <tr>
 	<td>open</td>
@@ -72,33 +77,38 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
 	<td>鉄道</td>
-	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
 	<td>JR山手線</td>
-	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
 	<td>目黒</td>
-	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
 	<td>5分</td>
-	<td></td>
 </tr>
 <tr>
 	<td>verifyElementPresent</td>
-	<td>//img[@alt='削除']</td>
+	<td>//img[@id='erase1']</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAt</td>
-	<td>//img[@alt='削除']</td>
+	<td>//img[@id='erase1']</td>
 	<td></td>
 </tr>
 

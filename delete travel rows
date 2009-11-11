@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>delete travel rows</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">delete travel rows</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/johan2.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=地下鉄</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line2</td>
+	<td>label=東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>中野</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>station2</td>
+	<td>label=葛西</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes2</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit' and @onclick=&quot;sendFillOutRequest( '鉄道', get_line(2), get_station(2), get_minutes(2), get_distance(2), 2, 0 )&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=大手私鉄</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line3</td>
+	<td>label=都営三田線</td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>白山</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>station3</td>
+	<td>label=白山</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance3</td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit' and @onclick=&quot;sendFillOutRequest( '鉄道', get_line(3), get_station(3), get_minutes(3), get_distance(3), 3, 0 )&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=バス</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>line5</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>station5</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes5</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit' and @onclick=&quot;sendFillOutRequest( 'バス', get_line(5), get_station(5), get_minutes(5), get_distance(5), 5, 0 )&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>葛西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
+	<td>4分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//a[@id=&quot;erase1&quot;]/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[1]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[2]</td>
+	<td>バス</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[3]</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[4]</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[5]</td>
+	<td>10分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//a[@id=&quot;erase2&quot;]/@href</td>
+	<td>javascript:deleteRequest(2)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//img[@id=&quot;erase2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/johan2.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>バス</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
+	<td>10分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//a[@id=&quot;erase1&quot;]/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

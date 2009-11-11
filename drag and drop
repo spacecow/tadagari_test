@@ -24,7 +24,7 @@
 <tr>
 	<td>type</td>
 	<td>fileField</td>
-	<td>D:\Pictures\johan.jpg</td>
+	<td>C:\Pictures\johan.jpg</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -39,7 +39,7 @@
 <tr>
 	<td>type</td>
 	<td>fileField</td>
-	<td>D:\Pictures\johan2.jpg</td>
+	<td>C:\Pictures\johan2.jpg</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -54,7 +54,7 @@
 <tr>
 	<td>type</td>
 	<td>fileField</td>
-	<td>D:\Pictures\sadako.jpg</td>
+	<td>C:\Pictures\sadako.jpg</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -69,7 +69,7 @@
 <tr>
 	<td>type</td>
 	<td>fileField</td>
-	<td>D:\Pictures\totoro.jpg</td>
+	<td>C:\Pictures\totoro.jpg</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
