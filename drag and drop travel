@@ -142,6 +142,671 @@
 	<td></td>
 </tr>
 <tr>
+	<td>dragAndDrop</td>
+	<td>//tr[@id='row4']/td[1]</td>
+	<td>0,-50</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>葛西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
+	<td>4分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[7]/center/a[@id='erase1']/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase1']/img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[1]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[3]</td>
+	<td>西武山口線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[4]</td>
+	<td>遊園地西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[6]</td>
+	<td>666m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row2']/td[7]/center/a[@id='erase2']/@href</td>
+	<td>javascript:deleteRequest(2)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase2']/img[@id=&quot;erase2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[1]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[3]</td>
+	<td>都営三田線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[4]</td>
+	<td>白山</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[6]</td>
+	<td>3000m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row3']/td[7]/center/a[@id='erase3']/@href</td>
+	<td>javascript:deleteRequest(3)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase3']/img[@id=&quot;erase3&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[1]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[2]</td>
+	<td>バス</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[3]</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[4]</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[5]</td>
+	<td>10分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row4']/td[7]/center/a[@id='erase4']/@href</td>
+	<td>javascript:deleteRequest(4)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase4']/img[@id=&quot;erase4&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/johan2.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>葛西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
+	<td>4分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[7]/center/a[@id='erase1']/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase1']/img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[1]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[3]</td>
+	<td>西武山口線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[4]</td>
+	<td>遊園地西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[6]</td>
+	<td>666m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row2']/td[7]/center/a[@id='erase2']/@href</td>
+	<td>javascript:deleteRequest(2)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase2']/img[@id=&quot;erase2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[1]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[3]</td>
+	<td>都営三田線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[4]</td>
+	<td>白山</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[6]</td>
+	<td>3000m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row3']/td[7]/center/a[@id='erase3']/@href</td>
+	<td>javascript:deleteRequest(3)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase3']/img[@id=&quot;erase3&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[1]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[2]</td>
+	<td>バス</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[3]</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[4]</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[5]</td>
+	<td>10分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row4']/td[7]/center/a[@id='erase4']/@href</td>
+	<td>javascript:deleteRequest(4)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase4']/img[@id=&quot;erase4&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDrop</td>
+	<td>//tr[@id='row1']/td[1]</td>
+	<td>0,50</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>西武山口線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>遊園地西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[6]</td>
+	<td>666m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[7]/center/a[@id='erase1']/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase1']/img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[1]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[3]</td>
+	<td>都営三田線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[4]</td>
+	<td>白山</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[6]</td>
+	<td>3000m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row2']/td[7]/center/a[@id='erase2']/@href</td>
+	<td>javascript:deleteRequest(2)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase2']/img[@id=&quot;erase2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[1]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[3]</td>
+	<td>東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[4]</td>
+	<td>葛西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[5]</td>
+	<td>4分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row3']/td[7]/center/a[@id='erase3']/@href</td>
+	<td>javascript:deleteRequest(3)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase3']/img[@id=&quot;erase3&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[1]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[2]</td>
+	<td>バス</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[3]</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[4]</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[6]/td[5]</td>
+	<td>10分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row4']/td[7]/center/a[@id='erase4']/@href</td>
+	<td>javascript:deleteRequest(4)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase4']/img[@id=&quot;erase4&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>西武山口線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>遊園地西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[6]</td>
+	<td>666m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[7]/center/a[@id='erase1']/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase1']/img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[1]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[3]</td>
+	<td>東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[4]</td>
+	<td>葛西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[5]</td>
+	<td>4分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row2']/td[7]/center/a[@id='erase2']/@href</td>
+	<td>javascript:deleteRequest(2)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase2']/img[@id=&quot;erase2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[1]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[2]</td>
+	<td>バス</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[3]</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[4]</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[5]</td>
+	<td>10分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row3']/td[7]/center/a[@id='erase3']/@href</td>
+	<td>javascript:deleteRequest(3)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase3']/img[@id=&quot;erase3&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/johan2.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>西武山口線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>遊園地西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[6]</td>
+	<td>666m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[7]/center/a[@id='erase1']/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase1']/img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[1]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[3]</td>
+	<td>東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[4]</td>
+	<td>葛西</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[4]/td[5]</td>
+	<td>4分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row2']/td[7]/center/a[@id='erase2']/@href</td>
+	<td>javascript:deleteRequest(2)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase2']/img[@id=&quot;erase2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[1]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[2]</td>
+	<td>バス</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[3]</td>
+	<td>yeah</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[4]</td>
+	<td>bus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[5]/td[5]</td>
+	<td>10分</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row3']/td[7]/center/a[@id='erase3']/@href</td>
+	<td>javascript:deleteRequest(3)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id='erase3']/img[@id=&quot;erase3&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextNotPresent</td>
+	<td>西武山口線</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAt</td>
 	<td>//img[@id='erase1']</td>
 	<td></td>
@@ -149,26 +814,6 @@
 <tr>
 	<td>waitForTextNotPresent</td>
 	<td>東京メトロ東西線</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAt</td>
-	<td>//img[@id='erase1']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForTextNotPresent</td>
-	<td>都営三田線</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAt</td>
-	<td>//img[@id='erase1']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForTextNotPresent</td>
-	<td>yeah</td>
 	<td></td>
 </tr>
 <tr>

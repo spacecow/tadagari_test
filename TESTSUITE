@@ -9,7 +9,8 @@
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="delete travel rows">delete travel rows</a></td></tr>
-<tr><td><a href="test travel minutes">test travel minutes</a></td></tr>
+<tr><td><a href="drag and drop travel">drag and drop travel</a></td></tr>
+<tr><td><a href="travel minutes">travel minutes</a></td></tr>
 </tbody></table>
 </body>
 </html>
