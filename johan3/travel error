@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>travel error</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">travel error</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/johan3.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>travel_pri_line</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>line3_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line3</td>
+	<td>label=都営浅草線</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>station3</td>
+	<td>西馬込</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes3_error</td>
+	<td>徒歩時間を入力して下さい。</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>line3_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes3</td>
+	<td>e</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes3_error</td>
+	<td>徒歩の時間を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance3</td>
+	<td>f</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance3_error</td>
+	<td>徒歩の距離を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance3_error</td>
+	<td>徒歩の距離を入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>travel_subway</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>line2_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line2</td>
+	<td>label=東京メトロ東西線</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>station2</td>
+	<td>中野</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes2_error</td>
+	<td>徒歩時間を入力して下さい。</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>line2_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes2</td>
+	<td>e</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes2_error</td>
+	<td>徒歩の時間を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance2</td>
+	<td>f</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance2_error</td>
+	<td>徒歩の距離を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance2_error</td>
+	<td>徒歩の距離を入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>travel_jr</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>line1_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line1</td>
+	<td>label=JR横浜線</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>station1</td>
+	<td>東神奈川</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes1_error</td>
+	<td>徒歩時間を入力して下さい。</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>line1_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes1</td>
+	<td>e</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes1_error</td>
+	<td>徒歩の時間を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance1</td>
+	<td>f</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance1_error</td>
+	<td>徒歩の距離を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance1_error</td>
+	<td>徒歩の距離を入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>travel_others</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>line4_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line4</td>
+	<td>label=西武山口線</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>station4</td>
+	<td>西武遊園地</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes4_error</td>
+	<td>徒歩時間を入力して下さい。</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>line4_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes4</td>
+	<td>e</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes4_error</td>
+	<td>徒歩の時間を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance4</td>
+	<td>f</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance4_error</td>
+	<td>徒歩の距離を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance4_error</td>
+	<td>徒歩の距離を入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>travel_bus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>line5_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>line5</td>
+	<td>some line</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>station5_error</td>
+	<td>駅を選んで下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>station5</td>
+	<td>some station</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes5_error</td>
+	<td>徒歩時間を入力して下さい。</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>line5_error</td>
+	<td>線路を選んで下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes5</td>
+	<td>e</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>minutes5_error</td>
+	<td>徒歩の時間を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>radio_distance5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance5</td>
+	<td>f</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance5_error</td>
+	<td>徒歩の距離を半角数字で入力して下さい。</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>distance5_error</td>
+	<td>徒歩の距離を入力して下さい。</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
