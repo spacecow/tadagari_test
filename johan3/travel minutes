@@ -93,7 +93,7 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>/johan2.php</td>
+	<td>/johan3.php</td>
 	<td></td>
 </tr>
 <tr>
@@ -120,6 +120,36 @@
 	<td>verifyText</td>
 	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
 	<td>5分</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[3]</td>
+	<td>JR山手線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[4]</td>
+	<td>目黒</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[5]</td>
+	<td>5分</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[6]</td>
+	<td>1000m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//a[@id=&quot;erase1&quot;]/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id=&quot;erase1&quot;]/img[@id=&quot;erase1&quot;]</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyElementPresent</td>
