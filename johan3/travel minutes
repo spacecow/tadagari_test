@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.tadagari.com/" />
+<title>travel minutes</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">travel minutes</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/johan3.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=JR</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>line1</td>
+	<td>label=JR山手線</td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>大崎</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>station1</td>
+	<td>label=目黒</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>minutes1</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>distance1</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[3]</td>
+	<td>JR山手線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[4]</td>
+	<td>目黒</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[5]</td>
+	<td>5分</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[@id='row1']/td[6]</td>
+	<td>1000m</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//a[@id=&quot;erase1&quot;]/@href</td>
+	<td>javascript:deleteRequest(1)</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//a[@id=&quot;erase1&quot;]/img[@id=&quot;erase1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/johan2.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[2]</td>
+	<td>鉄道</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[3]</td>
+	<td>JR山手線</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[4]</td>
+	<td>目黒</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='gradation_table']/tbody/tr[3]/td[5]</td>
+	<td>5分</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//img[@id='erase1']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
